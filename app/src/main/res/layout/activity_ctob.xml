@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ke.co.ryletechnologies.dibonsyst.activity.ctobActivity"
+    android:background="@drawable/index1">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Online Checkout"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:background="#59237f"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="STK Push"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:background="#59237f"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="C2B"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:background="#59237f"
+        android:textColor="#fff"/>
+</android.widget.RelativeLayout>

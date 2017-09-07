@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ke.co.ryletechnologies.dibonsyst.activity.ctobActivity"
+    android:background="@drawable/index1">
+
+    <TextView
+        android:id="@+id/tVB2C"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:background="#59237f"
+        android:text="B2C"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/bMakepayments"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="Make Payments"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:background="#59237f"
+        android:textColor="#fff"
+        android:layout_below="@+id/tVB2C"
+        android:layout_alignLeft="@+id/bPaymentrecords"
+        android:layout_alignStart="@+id/bPaymentrecords"
+        android:layout_marginTop="37dp"
+        android:onClick="openPayments"/>
+
+    <Button
+        android:id="@+id/bSettings"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:background="#59237f"
+        android:textColor="#fff"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/bPaymentrecords"
+        android:layout_alignLeft="@+id/bPaymentrecords"
+        android:layout_alignStart="@+id/bPaymentrecords" />
+    <Button
+        android:id="@+id/bPaymentrecords"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="Payment Records"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:background="#59237f"
+        android:textColor="#fff"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/bMakepayments"
+        android:layout_centerHorizontal="true" />
+</android.widget.RelativeLayout>

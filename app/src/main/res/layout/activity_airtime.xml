@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ke.co.ryletechnologies.dibonsyst.activity.AirtimeActivity"
+   android:background="@drawable/index1">
+
+    <TextView
+        android:id="@+id/tVBuyAirtime"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:background="#59237f"
+        android:text="Buy Airtime"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="25sp"
+       />
+
+
+    <TextView
+        android:id="@+id/tVSingleAirtime"
+        android:layout_width="250sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="57dp"
+        android:text="Single Airtime Purchase"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:background="#59237f"
+        android:textColor="#fff"
+        android:onClick="openSingleAirtime"
+        android:layout_below="@+id/tVBuyAirtime"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tVBulkAirtime"
+        android:layout_width="250sp"
+        android:layout_height="40sp"
+        android:text="Bulk Airtime Purchase"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:background="#59237f"
+        android:textColor="#fff"
+        android:layout_marginTop="35dp"
+        android:onClick="openBulkAirtime"
+        android:layout_below="@+id/tVSingleAirtime"
+        android:layout_alignLeft="@+id/tVSingleAirtime"
+        android:layout_alignStart="@+id/tVSingleAirtime" />
+
+
+</android.widget.RelativeLayout>

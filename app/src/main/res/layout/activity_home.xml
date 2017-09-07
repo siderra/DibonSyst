@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0.5sp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="ke.co.ryletechnologies.dibonsyst.activity.HomeActivity"
+    android:background="@drawable/image3">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="Airtime"
+                android:drawableTop="@drawable/imairtime"
+                android:background="@color/transparent"
+                android:onClick="openBuyAirtime"/>
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:text="B 2 B"
+                android:drawableTop="@drawable/imbtob"
+                android:background="@color/transparent"
+                android:onClick="openbtob"/>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:text="B 2 C"
+                android:drawableTop="@drawable/ic_newbtoc"
+                android:background="@color/transparent"
+                android:onClick="openbtoc"/>
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:text="C 2 B"
+                android:drawableTop="@drawable/ic_us93ckxtjf"
+                android:background="@color/transparent"
+                android:onClick="openctob"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+</android.widget.LinearLayout>

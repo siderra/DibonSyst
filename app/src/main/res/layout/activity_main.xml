@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ke.co.ryletechnologies.dibonsyst.activity.MainActivity"
+    android:background="@drawable/index1">
+
+    <EditText
+        android:id="@+id/etMobNumber"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:hint="Mobile Number"
+        android:inputType="number"
+        android:layout_below="@+id/tVBuyAirtime"
+        android:layout_alignLeft="@+id/etAmount"
+        android:layout_alignStart="@+id/etAmount"
+        android:layout_marginTop="55dp"
+        android:textAlignment="center"
+        android:textColorHint="#fff"/>
+
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:hint="Amount"
+        android:inputType="number"
+        android:layout_alignTop="@+id/etMobNumber"
+        android:layout_alignLeft="@+id/bBuy"
+        android:layout_alignStart="@+id/bBuy"
+        android:layout_marginTop="58dp"
+        android:textAlignment="center"
+        android:textColorHint="#fff"/>
+
+    <Button
+        android:id="@+id/bBuy"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:background="#59237f"
+        android:text="BUY"
+        android:textColor="#fff"
+        android:layout_below="@+id/etAmount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:id="@+id/tVBuyAirtime"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:background="#59237f"
+        android:text="Buy Airtime"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</android.widget.RelativeLayout>
